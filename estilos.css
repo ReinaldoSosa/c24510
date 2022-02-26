@@ -9,14 +9,15 @@ header {
     min-height: 40vh;
     background-color: #9049fb;
     color: #fff;
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(img/1971295.jpg);
     background-size: cover;
 }
 
 header h1 {
- padding-top: 10vh;
+
  font-size: 12vh;
  text-shadow: 5px 5px 5px #000;
 
@@ -77,5 +78,24 @@ footer {
     background-color: #353340;
     color: #fff;
     height: 100px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
 
+footer div {
+width: 20svw;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-social ul li {
+list-style: none;
+}
+
+footer h4 {
+    width: 75vw;
 }
