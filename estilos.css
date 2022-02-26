@@ -57,6 +57,7 @@ nav ul li a {
     display: block;
    padding-top: 10px;
    height: 40px;
+   transition: all 1s ease;
 }
 
 nav ul li a:hover {
