@@ -14,12 +14,13 @@ header {
     align-items: center;
     background-image: url(img/1971295.jpg);
     background-size: cover;
+    transition: all 2s ease-in-out;
 }
 
-header h1 {
-
- font-size: 12vh;
- text-shadow: 5px 5px 5px #000;
+header h1:hover {
+ font-size: 16vh;
+ 
+ 
 
 }
 
