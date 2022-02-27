@@ -88,10 +88,6 @@ width: 70%;
 footer {
     background-color: #353340;
     color: #fff;
-    height: 80px;
-    display: flex;
-   justify-content: space-around;
-   align-items: center;
 }
 
 
